@@ -15,6 +15,13 @@
         </license>
     </licenses>
 
+    <repositories>
+        <repository>
+            <id>bmjames Bintray Repo</id>
+            <url>https://dl.bintray.com/bmjames/maven</url>
+        </repository>
+    </repositories>
+
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -37,6 +44,13 @@
             <groupId>io.delta</groupId>
             <artifactId>delta-core_2.12</artifactId>
             <version>0.7.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/net.bmjames/scala-optparse-applicative -->
+        <dependency>
+            <groupId>net.bmjames</groupId>
+            <artifactId>scala-optparse-applicative_2.12</artifactId>
+            <version>0.7</version>
         </dependency>
 
         <dependency>
